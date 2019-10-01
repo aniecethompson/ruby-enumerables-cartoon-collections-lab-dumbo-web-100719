@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
   array.each_with_index do |name, index| 
-    puts "#{index + 1} #{name}"
+  puts "#{index + 1} #{name}"
 end
 end
 
@@ -14,7 +14,7 @@ def long_planeteer_calls(array)
   answer = false
   array.each do |call|
     if call.length > 4
-      answer = true
+       answer = true
     end
   end
     answer
@@ -23,7 +23,7 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-cheese.find do |cheese|
+  cheese.map do |cheese|
     cheese_types.include?(cheese)
   end
 end
